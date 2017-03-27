@@ -32,6 +32,8 @@ module ValidateLimits
               validates_length_of column.name, maximum: column.limit
 
             when :integer
+              next if column.name == primary_key
+
               self.attributes_with_limit_validation += [column.name]
               bits = column.limit * 8
               min  = -(2**(bits-1))
