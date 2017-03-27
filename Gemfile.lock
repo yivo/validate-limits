@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    validate-limits (1.0.0)
+    validate-limits (1.0.1)
       activerecord (>= 3.0, < 6.0)
       activesupport (>= 3.0, < 6.0)
 
