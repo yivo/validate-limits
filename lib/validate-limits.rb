@@ -40,7 +40,7 @@ module ValidateLimits
               max  = +(2**(bits-1))-1
               validates_numericality_of column.name, greater_than_or_equal_to: min,
                                                      less_than_or_equal_to:    max,
-                                                     if:                       "#{column}?"
+                                                     if:                       "#{column.name}?"
           end
         end
       end

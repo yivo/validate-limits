@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    validate-limits (1.0.1)
+    validate-limits (1.0.3)
       activerecord (>= 3.0, < 6.0)
       activesupport (>= 3.0, < 6.0)
 
@@ -24,7 +24,7 @@ GEM
     i18n (0.8.1)
     minitest (5.10.1)
     thread_safe (0.3.6)
-    tzinfo (1.2.2)
+    tzinfo (1.2.3)
       thread_safe (~> 0.1)
 
 PLATFORMS
